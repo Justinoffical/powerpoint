@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power point</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <section class="nav">
+        <h1>POWERPOINT</h1>
+        <h3 class="span loader"><span class="m">I</span><span class="m">N</span><span class="m">T</span><span class="m">R</span><span class="m">O</span><span class="m">D</span><span class="m">U</span><span class="m">K</span><span class="m">S</span><span class="m">J</span><span class="m">O</span><span class="m">N</span></h3>
+        <div class="nav-container">
+            <a class="nav-tab" href="javascript:void(0);" onclick="scrollToSection('tab-svelte')">KOMME I GANG</a>
+            <a class="nav-tab" href="javascript:void(0);" onclick="scrollToSection('tab-esbuild')">BASIC VERKTØY</a>
+            <a class="nav-tab" href="javascript:void(0);" onclick="scrollToSection('tab-next')">IMPORTERE BILDE</a>
+            <a class="nav-tab" href="javascript:void(0);" onclick="scrollToSection('tab-typescript')">FINNE TEMPLATE</a>
+            <a class="nav-tab" href="javascript:void(0);" onclick="scrollToSection('tab-vite')">BRUKER TEMPLATE</a>
+            <span class="nav-tab-slider"></span>
+        </div>
+    </section>
+    <main class="main">
+        <section class="slider" id="tab-svelte">
+            <br>
+            <br>
+            <h1>HVORDAN Å KOMME I GANG MED POWERPOINT</h1>
+            <h2>Åpne PowerPoint:<br>
+                Start PowerPoint-programmet på datamaskinen din. Du kan finne det i Microsoft Office-pakken eller som en frittstående applikasjon, avhengig av hvordan du har installert det.</h2>
+                <br>
+            <img src="img/Screenshot 2024-01-22 085505.png" alt="01">
+            <h2><br>hvis du har installert versjon kan du åpne i søkefeltet</h2>
+            <br>
+            <img src="img/Screenshot 2024-01-23 104421.png" alt="02">
+            <h2><br>når du er i powerpoint kan du klikke på tom presentasjon for å lage ny presentasjon</h2>
+            <img src="img/Screenshot 2024-01-22 085524.png" alt="02">
+        </section>
+        <section class="slider" id="tab-esbuild">
+            <br>
+            <br>
+            <h1>BASIC VERKTØY</h1>
+            <h2>Lysbildemal: 
+                Velg en passende mal for presentasjonen din. PowerPoint tilbyr et bredt utvalg av maler som kan tilpasses etter behov.</h2>
+            <img src="img/Screenshot 2024-01-24 102053.png" alt="02">
+            <h2><br>Innsetting av lysbilder:
+                        Bruk "Ny slide" for å legge til nye lysbilder. Velg fra ulike oppsett som titler, tekst, bilde eller diagram.</h2>
+            <img src="img/Screenshot 2024-01-24 1018241.png" alt="02">
+            <h2><br>Tekstverktøy:
+                    Legg til tekst ved å bruke tekstbokser. Du kan formatere teksten ved å endre skrifttype, størrelse, farge og stil.</h2>
+            <img src="img/Screenshot 2024-01-24 1018242.png" alt="02">
+        </section>
+        <section class="slider" id="tab-next">
+            <br>
+            <h1>IMPORTERE BILDE</h1>
+            <h2>Velg lysbildet du vil legge til bildet på:
+                Naviger til lysbildet der du ønsker å sette inn bildet.</h2>
+            <img src="img/Screenshot 2024-01-24 104958.png" alt="02">
+            <h2><br>Gå til "Sett inn" i menylinjen øverst på skjermen.</h2>
+            <img src="img/Screenshot 2024-01-24 1049581.png" alt="02">
+            <h2><br>Velg "Bilde":
+                Klikk på "Bilde" i rullegardinmenyen under "Sett inn". <br> Bla gjennom filene på datamaskinen din og velg bildet du ønsker å sette inn i presentasjonen. Klikk deretter på "Sett inn".</h2>
+            <img src="img/Screenshot 2024-01-24 105538.png" alt="02">
+        </section>
+        <section class="slider" id="tab-typescript">
+            <br>
+            <h1>FINNE TEMPLATE</h1>
+            <h2>for å finne maler må du gå på <a href="https://slidesgo.com/">Slides go</a> og finne malene som passer deg. noen maler er gratis og noen må du kjøpe</h2>
+            <img src="img/Screenshot 2024-01-24 112528.png" alt="02">
+            <h2><br>når du finner malen du vil bruke kan du klikke på last ned. den vil spørre deg om du vil laste ned for powerpoint eller google slide, du må velge powerpoint</h2>
+            <img src="img/Screenshot 2024-01-24 112818.png" alt="02">
+            <h2><br>du kan kun laste ned 1 mal hvis du ikke logger inn. hvis du vil laste ned mer enn 1 må du registrere deg med google eller facebook for å laste ned 5 flere temaplater per måned</h2>
+        </section>
+        <section class="slider" id="tab-vite">
+            <br>
+            <h1>BRUKER TEMPLATE</h1>
+            <h2>når du laster ned malen gå til fil og gå til nedlasting vil du se malen din der bare åpne den og den vil bringe deg til powerpoint</h2>
+            <img src="img/Screenshot 2024-01-24 114828.png" alt="02">
+            <h2><br>når du har åpnet malen vil den kun leses du må klikke på rediger uansett for å kunne bruke den</h2>
+            <img src="img/Screenshot 2024-01-24 115432.png" alt="02">
+        </section>
+    </main>
+    <script>
+        function scrollToSection(sectionId) {
+            const targetDiv = document.getElementById(sectionId);
+            targetDiv.scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+</body>
+</html>
